@@ -1,0 +1,180 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="rohan.loldesign.EditProfile">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editusertool"
+            android:background="#b71c1c">
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:id="@+id/usercoverpic"
+            android:src="@drawable/backgrpic"
+
+            android:clickable="true"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:text="Name"
+
+                        android:layout_gravity="center" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="15dp"
+                        android:text="sample@gmail.com"
+                        android:id="@+id/edituserprof1"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:text="Phone"
+
+                        android:layout_gravity="center" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="15dp"
+                        android:text="sample@gmail.com"
+                        android:id="@+id/edituserprof2"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:text="Email Address"
+
+                        android:layout_gravity="center" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="15dp"
+                        android:text="sample@gmail.com"
+                        android:id="@+id/edituserprof3"
+
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:text="Blood group"
+
+                        android:layout_gravity="center" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="15dp"
+                        android:text="sample@gmail.com"
+                        android:id="@+id/edituserprof4"
+
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:text="Age"
+
+                        android:layout_gravity="center" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="15dp"
+                        android:text="sample@gmail.com"
+                        android:id="@+id/edituserprof5"
+
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save profile information"
+            android:backgroundTint="#b71c1c"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="8dp"
+            android:elevation="8dp"
+            android:onClick="saveprof"
+
+            android:id="@+id/saveprof"
+            />
+
+    </LinearLayout>
+
+<!-- From: file:/D:/DroidStudioProjects/AndroidStudioProjects/LolDesign%20-%20Copy/app/src/main/res/layout/activity_edit_user.xml -->

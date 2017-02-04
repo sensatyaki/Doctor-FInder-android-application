@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/focus_thief"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchedit"
+            android:hint="Search for Doctors,Speciality"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColorLink="#b71c1c"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="snackBar"
+        android:text="Snack1"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="snackBarX"
+        android:text="Snack2"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+</LinearLayout>

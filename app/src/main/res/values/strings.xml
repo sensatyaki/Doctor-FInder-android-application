@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Doctor+</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="appid">OBuIZHBJgPB2yjdROU2Kfy9zg8sXgZxvx2IOaSzg</string>
+    <string name="clikey">VWvoTVymVcHY1P7BJaaOWe7HFBsWAet2cMFsifUi</string>
+    <string name="title_activity_cloud_entry">CloudEntry</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_doctor_profile">DoctorProfile</string>
+    <string name="title_activity_review">Review</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_edit_user">EditUser</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Rohan\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="D:\DroidStudioProjects\AndroidStudioProjects\LolDesign - Copy\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-226f387c9a99e4aa7d9f25f906a7155a849190fe.jar" />
+    </item>
+
+</items>

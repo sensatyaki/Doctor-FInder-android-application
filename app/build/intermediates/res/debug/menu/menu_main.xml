@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings1" android:title="Menu item1"
+        android:orderInCategory="100" app:showAsAction="never" >
+       <menu>
+
+           <item android:id="@+id/action_settings_sub11" android:title="Sub Menu item1"
+               android:orderInCategory="100" app:showAsAction="never" />
+           <item android:id="@+id/action_settings_sub12" android:title="Sub Menu item2"
+               android:orderInCategory="101" app:showAsAction="never" />
+       </menu>
+
+    </item>
+
+
+    <item android:id="@+id/action_settings2" android:title="Menu item2"
+        android:orderInCategory="101" app:showAsAction="never" >
+        <menu>
+
+            <item android:id="@+id/action_settings_sub21" android:title="Sub Menu item1"
+                android:orderInCategory="100" app:showAsAction="never" />
+            <item android:id="@+id/action_settings_sub22" android:title="Sub Menu item2"
+                android:orderInCategory="101" app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
+<!-- From: file:/D:/DroidStudioProjects/AndroidStudioProjects/LolDesign%20-%20Copy/app/src/main/res/menu/menu_main.xml -->

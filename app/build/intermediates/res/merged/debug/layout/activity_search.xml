@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/searchdrawer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:background="#b71c1c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/searchtool">
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchempty"
+
+        android:textColor="@color/primary_dark_material_light"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:text="We could not find Doctors for you. If you have set any filters please clear them and search again."
+        />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/searchrecview"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:onClick="filterbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_setting_dark"
+
+
+
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+    <fragment
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="rohan.loldesign.SlideFrag"
+        android:id="@+id/fragment2"
+        android:layout_gravity="start"
+        tools:layout="@layout/slidefrag"
+        />
+</android.support.v4.widget.DrawerLayout><!-- From: file:/D:/DroidStudioProjects/AndroidStudioProjects/LolDesign%20-%20Copy/app/src/main/res/layout/activity_search.xml -->

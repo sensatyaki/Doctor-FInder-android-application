@@ -1,0 +1,97 @@
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/reviewtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/material_red_900"
+      />
+    <View
+        android:id="@+id/focus_thief"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/ratingBar"
+    />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+
+
+        >
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reviewedit"
+            android:hint="Write a review"
+            android:textColorLink="@color/material_red_900"
+
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+       <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Send"
+         
+          android:textColor="@android:color/white"
+          android:layout_marginEnd="10dp"
+          android:layout_gravity="bottom"
+          android:onClick="reviewsend"
+          />
+   </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/revcood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/revempty"
+            android:textColor="@color/primary_dark_material_light"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="Be the first one to submit a review :)"
+            />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/revrecview">
+
+    </android.support.v7.widget.RecyclerView>
+  </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
+<!-- From: file:/D:/DroidStudioProjects/AndroidStudioProjects/LolDesign%20-%20Copy/app/src/main/res/layout/activity_review.xml -->

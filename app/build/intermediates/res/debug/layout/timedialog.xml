@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="1000dp"
+
+    android:layout_width="400dp"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.CoordinatorLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+ <RadioGroup
+
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/day">
+    <RadioButton
+        android:buttonTint="@color/material_red_900"
+        android:layout_marginTop="15dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="15dp"
+        android:text="Today"
+        android:textColor="@color/primary_dark_material_light"
+        android:id="@+id/radioButton" />
+
+    <RadioButton
+        android:buttonTint="@color/material_red_900"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/primary_dark_material_light"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow"
+        android:layout_weight="1"
+        android:id="@+id/radioButton2"
+         />
+
+    <RadioButton
+        android:buttonTint="@color/material_red_900"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Day after"
+        android:textColor="@color/primary_dark_material_light"
+        android:id="@+id/radioButton3"
+       />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/time">
+        <RadioButton
+            android:buttonTint="@color/material_red_900"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/primary_dark_material_light"
+            android:text="Morning"
+            android:id="@+id/radioButton4" />
+
+        <RadioButton
+            android:buttonTint="@color/material_red_900"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/primary_dark_material_light"
+            android:text="Afternoon"
+            android:id="@+id/radioButton5"
+            />
+
+        <RadioButton
+            android:buttonTint="@color/material_red_900"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/primary_dark_material_light"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Evening"
+            android:id="@+id/radioButton6"
+            />
+ </RadioGroup>
+
+    <Button
+        android:id="@+id/appsubmit"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="appsend"
+        android:backgroundTint="@color/material_red_900"
+        android:textColor="@android:color/white"
+      android:layout_gravity="center"/>
+</LinearLayout><!-- From: file:/D:/DroidStudioProjects/AndroidStudioProjects/LolDesign%20-%20Copy/app/src/main/res/layout/timedialog.xml -->
